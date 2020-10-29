@@ -1,0 +1,561 @@
+/*Google Font Link*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Global CSS Start*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2{
+  font-family: 'Alfa Slab One', cursive;
+}
+h3,h4,h5,h6,li{
+  font-family: 'Bebas Neue', cursive;
+}
+
+p,span,input{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Header Section Start*/
+.header{
+  background: radial-gradient(#fff,#ffd6d6);
+  width: 100%;
+  height: 665px;
+}
+/*Menu CSS Start*/
+.header .menu{
+  background: transparent;
+}
+.header .menu .navbar img{
+  width: 125px;
+}
+
+.header .navbar-nav .nav-link{
+  margin-left: 20px;
+  color: #555 !important;
+  font-size: 18px;
+  transition: 0.5s ease-in-out;
+}
+.header .navbar-nav .nav-link:hover{
+  color: #ff523b !important;
+  transition: 0.5s ease-in-out;
+
+}
+.header .navbar-nav .nav-link img{
+  height: 20px;
+  width: 20px;
+}
+
+/*Menu CSS End*/
+
+/*Banner CSS Start*/
+
+.banner{
+  padding: 35px 0;
+}
+.banner .left-banner{
+    margin: 120px 0;
+}
+.banner .left-banner h1{
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.banner .left-banner p{
+  
+}
+.banner .left-banner button{
+    padding: 10px 25px;
+    border-radius: 40px;
+    background: #ff523b;
+    color: white;
+    font-weight: 600;
+    margin: 20px 0;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.banner .left-banner button:hover{
+  background: red;
+  transition: 0.5s ease-in-out;
+}
+.banner .right-banner{
+  
+}
+.banner .right-banner img{
+  
+}
+
+
+/*Banner CSS End*/
+
+
+
+/*Header Section End*/
+
+/*Feature Section CSS Start*/
+
+.feature{
+
+}
+/*Feature Categories Start*/
+.feature .feature-categories{
+  
+padding: 60px 0;
+  
+display: flex;
+}
+.feature .feature-categories .feature-img{
+  
+margin: 25px;
+}
+
+
+/*Feature Categories End*/
+
+.feature .feature-product{
+
+padding: 50px 0;
+}
+.feature .feature-product .title h2{
+  text-align: center;
+}
+.feature .feature-product .line{
+  
+width: 13%;
+  
+height: 4px;
+  
+border-radius: 5px;
+  
+background: red;
+  
+margin: 0 auto;
+}
+
+.feature .products {
+    padding: 50px 0 0 0;
+}
+.feature .products .featured-p{
+  transition: 0.3s ease-in-out;
+}
+.feature .products .featured-p:hover{
+  transform: translateY(-10px);
+  transition: 0.3s ease-in-out;
+}
+.feature .products .featured-p img{
+  
+}
+.feature .products .featured-p .product-title{
+  
+margin: 20px 0;
+}
+.feature .products .featured-p .product-title h5{
+  
+margin: 0;
+}
+.feature .products .featured-p .product-title .ratings{
+  
+}
+.feature .products .featured-p .product-title .ratings i{
+  
+color: orange;
+}
+.feature .products .featured-p .product-title p{
+}
+
+
+
+/*Feature Section CSS End*/
+
+
+/*Offer Section CSS Start*/
+
+.offer{
+  background: radial-gradient(#fff,#ffd6d6);
+  padding: 50px;
+}
+.offer .left-side{
+
+text-align: center;
+}
+.offer .left-side img{
+
+width: 400px;
+}
+.offer .right-side{
+  padding: 50px 0;
+}
+.offer .right-side p{
+
+}
+.offer .right-side h1{
+
+}
+.offer .right-side button{
+    padding: 10px 25px;
+    border-radius: 40px;
+    background: #ff523b;
+    color: white;
+    font-weight: 600;
+    margin: 20px 0;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.offer .right-side button:hover{
+  background: red;
+  transition: 0.5s ease-in-out;
+}
+
+/*Offer Section CSS End*/
+
+/*Review Section CSS Start*/
+
+
+.review{
+  padding: 60px 0;
+}
+.review .testimonial{
+  padding: 0 40px;
+}
+.review .box{
+  
+  text-align: center;
+    
+  padding: 15px 25px;
+  transition: 0.5s ease-in-out;
+  
+  
+}
+.review .box:hover{
+  box-shadow: 5px 10px 10px 3px #888888;
+  transition: 0.5s ease-in-out;
+}
+.review .box i{
+  
+font-size: 50px;
+  
+color: orange;
+  
+margin: 15px !important;
+}
+.review .box p{
+  
+}
+.review .box .ratings{
+  
+}
+.review .box .ratings i{
+  color: orange;
+  font-size: 16px !important;
+  margin: 0 !important;
+}
+.review .box .profile{
+
+}
+.review .box .profile img{
+  
+border-radius: 100%;
+  
+width: 70px;
+  
+margin: 10px 0;
+}
+.review .box .profile p{
+  
+font-weight: 600;
+}
+/*Review Section CSS End*/
+
+
+
+/*Company Section Start*/
+.company{
+  padding: 60px 0;
+}
+
+.company img{
+  
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+.company img:hover{
+   filter: none;
+  transition: 0.3s ease-in-out;
+
+}
+/*Company Section End*/
+
+
+
+/*Footer Section Start*/
+
+
+
+.footer{
+  background: #000000;
+  padding: 40px 0;
+  color: white;
+}
+.footer .sl-1{
+  
+}
+.footer .sl-1 h4{
+  
+}
+.footer .sl-1 p{
+  
+color: #373737;
+  
+padding: 5px 0;
+}
+.footer .sl-1 img{
+  
+width: 125px;
+}
+.footer .sl-2{
+  
+text-align: center;
+}
+.footer .sl-2 img{
+  
+width: 200px;
+}
+.footer .sl-2 p{
+  
+padding: 15px 20px;
+  
+color: #373737;
+}
+.footer .sl-3{
+  
+text-align: center;
+}
+.footer .sl-3 h4{
+  
+}
+.footer .sl-3 ul{
+}
+.footer .sl-3 ul li{
+  
+list-style: none;
+  
+color: white !important;
+  
+padding: 2px 0;
+}
+.footer .sl-3 ul li a{
+  
+color: #373737;
+}
+.footer .sl-4{
+  
+}
+.footer .sl-4 h4{
+  
+}
+.footer .sl-4 ul{
+  
+}
+.footer .sl-4 ul li{
+  
+}
+.footer .sl-4 ul li a{
+  
+}
+.copyright{
+  text-align: center;
+  margin-top: 15px;
+}
+.copyright p{
+  
+color: #373737;
+}
+
+/*Footer Section End*/
+
+
+
+
+
+
+        /*Media Query*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .header {
+    height: 550px;
+}
+  .banner {
+    padding: 15px 0;
+}
+  .banner .left-banner {
+    margin: 60px 0;
+}
+  .feature .feature-categories {
+    padding: 30px 0;
+}
+.feature .feature-product {
+    padding: 25px 0;
+}
+  .review {
+    padding: 30px 0;
+}
+.review .testimonial {
+    padding: 0 0px;
+}
+.review .box {
+    padding: 15px 10px;
+}
+.footer .sl-1 img {
+    width: 90px;
+}
+.footer .sl-2 img {
+    width: 150px;
+}
+
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .header {
+    height: auto;
+}
+.banner .left-banner h1 {
+    font-size: 30px;
+}
+.banner {
+    padding: 35px 0;
+}
+ .banner .left-banner {
+    margin: 60px 0;
+}
+
+  .feature .feature-categories {
+    padding: 30px 0;
+}
+.feature .feature-product .title h2 {
+  font-size: 25px !important;
+}
+.feature .products .featured-p {
+    margin: 10px 0;
+}
+.offer .right-side {
+   padding:0; 
+}
+.offer .right-side h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.review {
+    padding: 30px 0;
+}
+.review .box {
+   padding: 0;
+}
+.review .testimonial {
+   padding: 0;
+}
+.company img {
+     filter: none; 
+}
+.footer .sl-1 img {
+    width: 70px;
+}
+.footer .sl-2 img {
+    width: 140px;
+}
+.footer .sl-2 p {
+    padding: 5px 0px;
+    font-size: 14px;
+}
+.footer .sl-1 p {
+     padding: 0;
+    margin: 0 !important;
+}
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.header{
+  height: auto;
+}
+.banner .left-banner {
+    margin: 0 !important;
+}
+  .banner .left-banner {
+    margin-top: 50px !important;
+    text-align: center;
+}
+.banner .left-banner h1 {
+    font-size: 30px;
+}
+.feature .feature-categories {
+    padding: 30px 0;
+}
+.feature .feature-categories .feature-img {
+    margin: 10px;
+}
+.feature .products {
+    text-align: center;
+}
+.feature .products .featured-p img {
+    width: 80%;
+}
+.company {
+    text-align: center;
+}
+.company img {
+    filter: none;
+}
+.footer {
+    text-align: center;
+}
+.footer .sl-1 {
+    padding: 0 20px 20px 20px;
+}
+.footer .sl-2 {
+    padding: 0 20px 20px 20px;
+}
+.footer .sl-3 {
+    padding: 0 20px 20px 20px;
+}
+.footer .sl-4 {
+    padding: 0 20px 20px 20px;
+}
+
+
+
+
+
+}
